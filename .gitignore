@@ -1,0 +1,13 @@
+__pycache__/
+*.py[cod]
+.venv/
+*.csv
+*.json
+*.jsonl
+*.npz
+*.npy
+*.pt
+*.pth
+*.zip
+data/
+results/
