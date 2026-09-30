@@ -8,10 +8,10 @@ Use Python 3.11; the experiments used NumPy 1.26.4.
 
 ```bash
 python3 -m pip install -r requirements.txt
-bash run.sh smoke
+bash run.sh pilot
 ```
 
-Set `PYTHON=/path/to/python` when needed. Smoke runs offline on CPU, generates synthetic inputs in a temporary directory, executes the actual grid/policy/fine CLI paths, and removes the temporary files. Synthetic checks are not paper results. Native reanchor is included as five pinned Python files; no installation or download is needed for it.
+Set `PYTHON=/path/to/python` when needed. pilot runs offline on CPU, generates synthetic inputs in a temporary directory, executes the actual grid/policy/fine CLI paths, and removes the temporary files. Synthetic checks are not paper results. Native reanchor is included as five pinned Python files; no installation or download is needed for it.
 
 ## External data interface
 
