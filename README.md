@@ -71,8 +71,3 @@ bash run.sh natural --full --input /external/WikiAtomicSample/insertions_deletio
 
 `--prepare` checks unique aligned atomic edits and canonical three-token probe geometry without invoking selectors. `--pilot --pilot-revisions 32` evaluates a bounded prefix of probe-bearing released revisions. No raw page whitespace, revision chain, or new human judgment is inferred.
 
-## Implementation scope
-
-The existing numerical functions are retained: UTF-16 slicing (including partial-surrogate saved fields), whitespace normalization, original-occurrence transport, overlapping exact candidates, substring-edit context scores, stable leftmost ties, native conversion, and paired exact-text-group statistics. Portability changes replace historical directory imports, source-tar audits, and old run receipts with explicit external inputs, fresh external outputs, actual-input hashes, and pinned vendor-file checks. Fine-bank parity checks are retained. Dataset adapters validate existing labels and do not introduce new algorithms or partition rules.
-
-The minimum package omits plot editors, manuscript compilation, historical experiment runners, upstream TypeScript differential checks, and the separate residual-report collector. Saved policy components and native metadata remain available for downstream diagnostics. No full corpus experiment is executed by smoke. See [THIRD_PARTY.md](THIRD_PARTY.md) for exact upstream revisions and notices; no project-wide license is supplied.
